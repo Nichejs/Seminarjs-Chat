@@ -1,7 +1,8 @@
 Seminarjs-Chat
 ==============
 
-Chat plugin for Seminarjs
+[![Build Status](https://travis-ci.org/Nichejs/Seminarjs-Chat.svg?branch=master)](https://travis-ci.org/Nichejs/Seminarjs-Chat)
+[![Dependency Status](https://www.versioneye.com/user/projects/542c52d5fc3f5c1a0d000158/badge.svg?style=flat)](https://www.versioneye.com/user/projects/542c52d5fc3f5c1a0d000158)
 
 ###Installation
 Once you have an instance of Seminarjs running, install the chat as an extra npm module:
@@ -13,7 +14,7 @@ Seminarjs$ npm install seminarjs-chat --save
 Now head over to the `index.js` file in Seminarjs, and add the following to the end:
 
 ```javascript
-var chat = require("Seminarjs-Chat");
+var chat = require("seminarjs-chat");
 chat(App);
 ```
 

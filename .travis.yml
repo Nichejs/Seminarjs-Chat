@@ -4,3 +4,11 @@ node_js:
 before_script:
 - npm start &
 - sleep 1
+deploy:
+  provider: npm
+  email: hey@nichejs.com
+  api_key:
+    secure: TVl4Dh38eUXua+3xfE3GktV3NqsUxSJWCP/K7813YycNfsl45VQA4WZmpH90yd465YKfmIEn+4w5p19orkhdcHxhxRwDLN9UuIqkfLadcb41YaHbVUpol4Nx9Berrd7HCSQqI4ASLWxeR7H+kJbl1kKXx4ELPAaaTWOOQ2N8oa8=
+  on:
+    tags: true
+    repo: Nichejs/Seminarjs-Chat
