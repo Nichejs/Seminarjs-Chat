@@ -3,7 +3,7 @@ Seminarjs-Chat
 
 Chat plugin for Seminarjs
 
-###Instalation
+###Installation
 Once you have an instance of Seminarjs running, install the chat as an extra npm module:
 
 ```
@@ -86,7 +86,7 @@ The configuration options for the chat are:
 
 These are passed to the Chat initializer as a second parameter:
 
-```javascript
+```html
 <script type="text/javascript">
   var socket = io();
   Chat.init(socket, {
