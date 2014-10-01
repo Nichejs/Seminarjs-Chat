@@ -8,7 +8,7 @@ Seminarjs-Chat
 Once you have an instance of Seminarjs running, install the chat as an extra npm module:
 
 ```
-Seminarjs$ npm install seminarjs-chat --save 
+npm install seminarjs-chat --save 
 ```
 
 Now head over to the `index.js` file in Seminarjs, and add the following to the end:
