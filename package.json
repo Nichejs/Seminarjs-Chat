@@ -4,7 +4,7 @@
 	"description": "Chat plugin for Seminarjs",
 	"main": "index.js",
 	"scripts": {
-		"start": "node test/bootstrap.js"
+		"start": "node test/bootstrap.js",
 		"test": "mocha test"
 	},
 	"repository": {
