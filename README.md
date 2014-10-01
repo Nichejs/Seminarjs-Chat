@@ -3,6 +3,7 @@ Seminarjs-Chat
 
 [![Build Status](https://travis-ci.org/Nichejs/Seminarjs-Chat.svg?branch=master)](https://travis-ci.org/Nichejs/Seminarjs-Chat)
 [![Dependency Status](https://www.versioneye.com/user/projects/542c52d5fc3f5c1a0d000158/badge.svg?style=flat)](https://www.versioneye.com/user/projects/542c52d5fc3f5c1a0d000158)
+[![NPM version](https://badge.fury.io/js/seminarjs-chat.svg)](http://badge.fury.io/js/seminarjs-chat)
 
 ###Installation
 Once you have an instance of Seminarjs running, install the chat as an extra npm module:
