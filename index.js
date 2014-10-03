@@ -1,12 +1,12 @@
-module.exports = function (App) {
-	if (typeof (App) == 'undefined') {
-		console.error('ERROR: Seminarjs not detected');
+module.exports = function (seminarjs) {
+	if (typeof (seminarjs) == 'undefined') {
+		console.error('[ERROR] Seminarjs not detected');
 		process.exit(-1);
 	}
 
 	try {
 
-		App.express.use('/plugins/chat/', function (req, res, next) {
+		seminarjs.app.use('/plugins/chat/', function (req, res, next) {
 			if (req.method !== 'GET') {
 				next();
 				return;
@@ -15,7 +15,7 @@ module.exports = function (App) {
 		});
 
 		var Chat = require('./src/chat-server.js');
-		Chat(App.io);
+		Chat(seminarjs.io);
 
 	} catch (e) {
 		console.error(e.getMessage());
