@@ -10,7 +10,7 @@ var io = require('socket.io')(server);
 app.set('port', (process.env.PORT || 5000))
 
 var App = {
-	express: app,
+	app: app,
 	io: io
 };
 
